@@ -6,15 +6,16 @@ MNIST ("Modified National Institute of Standards and Technology") is the de fact
 
 ![Hand written Digits](front_page.png)
 
-
+## Problem Statement :
 Our goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. The CNN architecture is as follows:
 
 ![CNN Architecture](cnn_architecture.png?)
 
 
 TensorFlow Keras API is used to design the CNN.
-The data files train.csv and test.csv contain gray-scale images of hand-drawn digits, from zero through nine.
 
+## Dataset :
+The data files train.csv and test.csv contain gray-scale images of hand-drawn digits, from zero through nine.
 Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255, inclusive.
 
 The training data set, (train.csv), has 785 columns. The first column, called "label", is the digit that was drawn by the user. The rest of the columns contain the pixel-values of the associated image.
@@ -32,5 +33,7 @@ Visually, if we omit the "pixel" prefix, the pixels make up the image like this:
 728 729 730 731 ... 754 755
 756 757 758 759 ... 782 783 
 
-
+## Model Evaluation :
 The evaluation metric for this contest is the categorization accuracy, or the proportion of test images that are correctly classified. 
+
+## Future Work :
