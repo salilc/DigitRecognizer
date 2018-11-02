@@ -1,7 +1,7 @@
 # DigitRecognizer
 Correctly identify digits from dataset of handwritten images.
 
-
+## Overview :
 MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
 
 ![Hand written Digits](front_page.png)
@@ -9,7 +9,7 @@ MNIST ("Modified National Institute of Standards and Technology") is the de fact
 
 Our goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. The CNN architecture is as follows:
 
-![CNN Architecture](cnn_architecture.png)
+![CNN Architecture](cnn_architecture.png?)
 
 
 TensorFlow Keras API is used to design the CNN.
