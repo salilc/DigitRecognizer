@@ -40,20 +40,19 @@ class DataProcessor:
         test = pd.read_csv(test_file,header=None)
         #print train.head(10)      
         train_y = train[0]
-        print train_y.head(10)
-        
+             
         # Drop 'label' column
         train_x = train.drop(labels = [0],axis = 1) 
-        g = sns.countplot(train_y)      
-        train_y.value_counts()
-        plt.show()        
+        test = test.drop(labels = [0],axis = 1)
+        print ("Plotting values for the labels")
+        sns.countplot(train_y)    
+        plt.show()  
+        print ("Checking for null values")
         print (train_x.isnull().any().describe())
-        print (train_x.shape)
         
         # Reshape image in 3 dimensions (height = 28px, width = 28px , canal = 1)
         train_x = train_x.values.reshape(-1,28,28,1)
-        print (train_x.shape)
-        #test = test.values.reshape(-1,28,28,1)
+        test = test.values.reshape(-1,28,28,1)
         train_x = train_x / 255.0
         test = test / 255.0
         # Encode labels to one hot vectors 
