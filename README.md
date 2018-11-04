@@ -37,5 +37,5 @@ Visually, if we omit the "pixel" prefix, the pixels make up the image like this:
 The evaluation metric for this contest is the categorization accuracy, or the proportion of test images that are correctly classified. 
 
 ## Future Work :
-1.Make sure the CNN is modeled after architecture as decribed.
+1. Make sure the CNN is modeled after architecture as decribed.
 2. Increase the accuracy of the model.
