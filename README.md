@@ -9,9 +9,6 @@ MNIST ("Modified National Institute of Standards and Technology") is the de fact
 ## Problem Statement :
 Our goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. The CNN architecture is as follows:
 
-![CNN Architecture](cnn_architecture.png?)
-
-
 TensorFlow Keras API is used to design the CNN.
 
 ## Dataset :
