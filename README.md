@@ -31,7 +31,7 @@ Visually, if we omit the "pixel" prefix, the pixels make up the image like this:
 756 757 758 759 ... 782 783 
 
 ## Model Evaluation :
-The evaluation metric for this contest is the categorization accuracy, or the proportion of test images that are correctly classified. 
+The evaluation metric for this model is the categorization accuracy, or the proportion of test images that are correctly classified. 
 
 ## Future Work :
 1. Make sure the CNN is modeled after architecture as decribed.
