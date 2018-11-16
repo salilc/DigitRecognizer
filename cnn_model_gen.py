@@ -37,17 +37,6 @@ class ModelGenerator:
                          activation ='relu'))
         model.add(MaxPool2D(pool_size=(2,2), strides=(2,2)))
         model.add(Dropout(0.25))
-        
-        
-        #TODO make sure the architecture is the same as described.
-        #conv3_1 = Sequential()
-        #conv3_1.add(Dense(512,input_shape = (14,14,1), activation = 'relu'))
-         
-        #conv3_2 = Sequential()
-        #conv3_2.add(Dense(512, input_shape =  (14,14,1), activation = 'relu'))
-        #model.add(Concatenate([conv3_1, conv3_2]))
-        
-        #model.add(Dense(512, input_shape =  (7,7,1), activation = 'relu'))
      
         # Flattening  for the fully connected layers
         model.add(Flatten())
